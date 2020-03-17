@@ -41,5 +41,9 @@ head(out)
 
 #######################################################################################
 ## **NOTE** remember that this function essentially tells you what is possible given your inputs.
-## It performs best (highest accuracy and precision) when mortality is high and changes big *and dynamic)
-## It will also keep trying 
+## It performs best (highest accuracy and precision) when mortality is high and changes big *and dynamic).
+## It will also keep trying to simulate a solution to the inputs for a long time if it is too difficult.
+## If simulations are not possible (changes cant be accounted for) it will try and find a solution for a long time
+## eventually it (should) error out but if using in a loop on a large dataset, it would be worthwhile to include 
+## error contingencies (e.g. TryCatch())
+#######################################################################################
