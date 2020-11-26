@@ -1,3 +1,5 @@
+# Genotype Forecaster
+
 ### Background
 
 One of the major limitations to pooled DNA sequencing (pooseq) is that
