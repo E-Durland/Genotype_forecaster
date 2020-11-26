@@ -240,3 +240,5 @@ ggplot(m_pcent,aes(Day,value*100))+
 
 ![](Genotype_forecaster_files/figure-markdown_github/unnamed-chunk-9-1.png)
 ![](https://github.com/E-Durland/Genotype_forecaster/blob/master/Flip_ex.png)
+
+For further examples and validation of this method, see the 'Testing' subdirectory
